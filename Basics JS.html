@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+  </head>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(212, 221, 224);
+    }
+    .firstly {
+      display: block;
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+      background-color: lightgrey;
+      border: 5px solid lightseagreen;
+      padding: 10px;
+      box-sizing: content-box;
+    }
+
+    .btn {
+      display: block;
+      margin: 10px;
+    }
+    nav {
+      display: flex;
+    }
+    .color {
+      background-color: rgb(126, 107, 145);
+      border: 5px solid darkblue;
+      border-radius: 10px;
+      color: white;
+      opacity: 0.4;
+    }
+    .size {
+      width: 250px;
+      height: 250px;
+    }
+  </style>
+  <body>
+    <div class="firstly">pojemnik na wartości</div>
+    <nav>
+      <button class="btn-add btn">Kolor</button
+      ><button class="btn-rem btn">Usuń kolor</button
+      ><button class="btn-tgl btn">Zmiana koloru</button>
+      <button class="btn-reset btn">Reset</button>
+    </nav>
+  </body>
+</html>
