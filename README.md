@@ -1,3 +1,2 @@
-#colors changing 
-
-<img src="./screen.png">
+# Counter 
+<img src="./counter.png">
