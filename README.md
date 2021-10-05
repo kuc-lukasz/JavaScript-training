@@ -1,1 +1,3 @@
-# JavaScript-training
+#colors changing 
+
+<img src="./screen.png">
